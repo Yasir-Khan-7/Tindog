@@ -1,30 +1,81 @@
+            
+            
+
+
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
 .navbar-brand{
   font-size: 2.5rem;
   font-family: "Ubuntu";
   font-weight: bold;
 }
-.container-fluid{
-  padding:3% 15%;
-  padding-bottom: 200px;
+.nav-link{
+  font-size: larger;
+  margin-right: 10px;
 }
-.navbar{
-  padding-bottom: 4.5rem;
+
+
+.iphone-6{
+  transform: rotate(25deg);
+  position: absolute;
+  width:25%;
+  }
+.download-btn{
+  padding: 1% 2%;
+  margin: 7% 2%;
+} 
+                 
+#Features{
+padding: 7% 15%;
+background-color: #fff;
+position: relative;
 }
-h2{
-  font-family: "Montserrat";
-  font: bold;
-  font-size: 2.5rem;
-  line-height: 1.5;
+.feature-box{
+  padding: 4.5%;
+  text-align: center;
+  }
+.fa-solid{
+  padding-bottom: 10px;
+  color: #ef8172;
+  cursor: pointer;
 }
+.fa-solid:hover{
+  color:#ff4c68;
+}
+  
+                    
+#Testemonials{
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}  
 .image-testemonial{
-width: 10%;
-border-radius: 100%;
-margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
+.carousel-item{
+  padding:7% 15%;
+}   
+
+                  
+#Press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom:3%;
+}                  
 .press-image{
   width: 15%;
   margin: 20px 20px 50px;
 }
+
+
+                
 #Pricing{
   padding: 100px;
   text-align: center;
@@ -32,77 +83,8 @@ margin: 20px;
 .pricing-column{
   padding:3% 2%;
 }
-#title{
-  background-color: #ff4c68;
-  color:#fff;
 
-}
-
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-
-.iphone-6{
-transform: rotate(25deg);
- position: absolute;
- width:25%;
-
-}
-
-
-.nav-link{
-  font-size: larger;
-  margin-right: 10px;
-}
-#Features{
-  padding: 7% 15%;
-  background-color: #fff;
-
-  position: relative;
-
-
-}
-.feature-box{
-padding: 4.5%;
-text-align: center;
-}
-h3{
-font-family: 'Montserrat', sans-serif;
-font-weight: bold;
-}
-p{
-color: grey;
-}
-.fa-solid{
-padding-bottom: 10px;
-color: #ef8172;
-cursor: pointer;
-}
-.fa-solid:hover{
-  color:#ff4c68;
-}
-#Testemonials{
-
-  text-align: center;
-  background-color: #ff4c68;
-  color: white;
-}
-#Press{
-  background-color: #ff4c68;
-  text-align: center;
-  padding-bottom:3%;
-
-}
-.carousel-item{
-  padding:7% 15%;
-}
-.download-btn{
-  padding: 1% 2%;
-  margin: 7% 2%;
-}
+            
 #cta{
   background-color: #ff4c68;
   padding: 7% 15%;
@@ -117,6 +99,7 @@ cursor: pointer;
 .download-btn-cta{
   margin: 3% 2%;
 }
+            
 #footer{
   padding: 7% 15%;
   text-align: center;
@@ -125,6 +108,35 @@ cursor: pointer;
   color: #000;
   margin: 20px 10px;
 }
+
+          
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding:3% 15%;
+  padding-bottom: 200px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+p{
+  color: grey;
+}
+
+
+
+
 @media(max-width:991px){
   .iphone-6{
     position: static;
