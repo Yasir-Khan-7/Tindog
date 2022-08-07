@@ -145,23 +145,23 @@ cursor: pointer;
     font-size: 2rem;
   }
   .container-fluid{
-    padding:1.5% 7.5%;
+    padding:1% 6%;
     padding-bottom: 50px;
   }
   #Pricing{
-    padding: 50px;
+    padding: 40px;
   }
   #cta{
-    padding:3.5% 7.5%;
+    padding:3% 5%;
   }
   #footer{
-    padding:3.5% 7.5%;
+    padding:3% 5%;
   }
   #features{
-    padding:3.5% 7.5%;
+    padding:3% 5%;
   }
   #press{
-    padding-bottom: 1.5%;
+    padding-bottom: 1%;
   }
 
 }
