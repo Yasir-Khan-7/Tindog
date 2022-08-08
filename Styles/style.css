@@ -1,6 +1,6 @@
             
             
-
+/*Title*/
 
 #title{
   background-color: #ff4c68;
@@ -29,7 +29,7 @@
   padding: 1% 2%;
   margin: 7% 2%;
 } 
-                 
+   /*Features*/              
 #Features{
 padding: 7% 15%;
 background-color: #fff;
@@ -48,7 +48,7 @@ position: relative;
   color:#ff4c68;
 }
   
-                    
+     /*Tetemonial*/              
 #Testemonials{
   text-align: center;
   background-color: #ff4c68;
@@ -63,7 +63,7 @@ position: relative;
   padding:7% 15%;
 }   
 
-                  
+         /*Press*/         
 #Press{
   background-color: #ff4c68;
   text-align: center;
@@ -74,7 +74,7 @@ position: relative;
   margin: 20px 20px 50px;
 }
 
-
+          /*Pricing*/
                 
 #Pricing{
   padding: 100px;
@@ -83,7 +83,7 @@ position: relative;
 .pricing-column{
   padding:3% 2%;
 }
-
+            /*Cta*/
             
 #cta{
   background-color: #ff4c68;
@@ -99,7 +99,7 @@ position: relative;
 .download-btn-cta{
   margin: 3% 2%;
 }
-            
+            /*Footer*/
 #footer{
   padding: 7% 15%;
   text-align: center;
@@ -108,7 +108,7 @@ position: relative;
   color: #000;
   margin: 20px 10px;
 }
-
+            /*General*/
           
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -134,7 +134,7 @@ p{
   color: grey;
 }
 
-
+          /*Media-Query*/
 
 
 @media(max-width:991px){
